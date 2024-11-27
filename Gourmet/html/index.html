@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Gourmet/css/styles.css"
+    <script src="/Gourmet/js/"></script>
+</head>
+<body>
+    <div id="headerwrapper">
+        <div id="header1"></div>
+        <div id="header2">
+                <div id="header2-1">Recensioner</div>
+                <div id="header2-2">
+                    <div onclick=dropDown()>
+                        <a href="aboutus.html">Om oss</a> 
+                    </div>
+                </div>
+                <div id="header2-3">Kontakt</div>
+        </div>
+        <div id="header3">Beställ nu!</div>
+    </div>
+
+    <div id="sectionwrapper">
+        <div id="section1"></div>
+        <div id="section2"></div>
+        <div id="section3"></div>
+    </div>
+
+    <div id="asidewrapper">
+        <div id="aside"></div>
+    </div>
+
+    <script>
+        function dropDown()
+        {
+            if(document.getElementById("header2-2").style.display=='none'){document.getElementById("header2-2").style.display = 'flex'}else{document.getElementById("header2-2").style.display='none'};
+        }
+    </script>
+
+</body>
+</html>

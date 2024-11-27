@@ -1,0 +1,41 @@
+#topsectionwrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Två kolumner, lika breda */
+    min-height: 45vh;
+
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin: 15px 15px 20px 15px;
+    gap: 20px;
+}
+
+#topsection1, #topsection2 {
+    border: 1px solid black;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 110px;
+}
+
+#bottomsectionwrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Två kolumner, lika breda */
+    min-height: 45vh;
+
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin: 0px 15px 0px 15px;
+    gap: 20px;
+}
+
+#bottomsection1, #bottomsection2 {
+    border: 1px solid black;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 110px;
+}
