@@ -1,0 +1,50 @@
+body
+{
+    background-image: url('/Gourmet/img/imgcolor.png');
+}
+
+#topsectionwrapper {
+    display: flex;
+    justify-content: space-between; /* För att separera elementen med utrymme emellan */
+    min-height: 45vh;
+
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin: 15px 15px 20px 15px;
+    gap: 20px; /* Lägger avstånd mellan elementen */
+}
+
+#topsection1, #topsection2, #topsection3 {
+    flex: 1; /* Gör att elementen delar lika på utrymmet */
+    border: 1px solid black;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 110px;
+    background-color: white;
+}
+
+#bottomsectionwrapper {
+    display: flex;
+    justify-content: space-between; /* För att separera elementen med utrymme emellan */
+    min-height: 45vh;
+
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin: 0px 15px 0px 15px;
+    gap: 20px; /* Lägger avstånd mellan elementen */
+}
+
+#bottomsection1, #bottomsection2, #bottomsection3{
+    flex: 1; /* Gör att elementen delar lika på utrymmet */
+    border: 1px solid black;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 110px;
+    background-color: white;
+}

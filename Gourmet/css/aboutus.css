@@ -1,3 +1,8 @@
+body
+{
+    background-image: url('/Gourmet/img/imgcolor.png');
+}
+
 #topsectionwrapper {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Två kolumner, lika breda */
@@ -16,7 +21,8 @@
     border: 1px solid black;
     font-size: xx-large;
     text-align: center;
-    padding-top: 110px;
+    padding-top: 95px;
+    background-color: white;
 }
 
 #bottomsectionwrapper {
@@ -24,7 +30,7 @@
     grid-template-columns: 1fr 1fr; /* Två kolumner, lika breda */
     min-height: 45vh;
 
-    background-image: url('');
+    background-image: url('/Gourmet/img/imgcolor.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,5 +43,11 @@
     border: 1px solid black;
     font-size: xx-large;
     text-align: center;
-    padding-top: 110px;
+    padding-top: 95px;
+    background-color: white;
+}
+
+#text
+{
+    font-size: large;
 }

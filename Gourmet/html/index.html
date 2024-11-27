@@ -13,18 +13,26 @@
         <div id="header2">
                 <div id="header2-1">Recensioner</div>
                 <div id="header2-2">
-                    <div onclick=dropDown()>
+                    <div onclick=dropDown1()>
                         <a href="aboutus.html">Om oss</a> 
                     </div>
                 </div>
                 <div id="header2-3">Kontakt</div>
         </div>
-        <div id="header3">Beställ nu!</div>
+        <div id="header3">
+            <div onclick=dropDown2()>
+                <a href="buy.HTML">Beställ nu!</a>
+            </div>
+        </div>
     </div>
 
     <div id="sectionwrapper">
         <div id="section1"></div>
-        <div id="section2"></div>
+        <div id="section2">
+            <div onclick=dropDown2()>
+                <a href="buy.HTML" id="text">Beställ nu!</a>
+            </div>
+        </div>
         <div id="section3"></div>
     </div>
 
@@ -33,9 +41,14 @@
     </div>
 
     <script>
-        function dropDown()
+        function dropDown1()
         {
             if(document.getElementById("header2-2").style.display=='none'){document.getElementById("header2-2").style.display = 'flex'}else{document.getElementById("header2-2").style.display='none'};
+        }
+
+        function dropDown2()
+        {
+            if(document.getElementById("header3").style.display=='none'){document.getElementById("header3").style.display = 'flex'}else{document.getElementById("header3").style.display='none'};
         }
     </script>
 
