@@ -64,9 +64,9 @@ body {
 }
 
 #header3 {
-    grid-column: 3 / 4;ter;
+    grid-column: 3 / 4;
     display: flex;
-    justify-content: cen
+    justify-content: cen;
     align-items: center;
     border: 1px solid black;
 }
@@ -101,7 +101,7 @@ body {
 #section3 {
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 78vh;
+    background-size: 79vh;
 }
 
 #section1 {
@@ -114,7 +114,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-image: url('/Gourmet/img/burgarehuvudsida.webp');
+    background-image: url('/Gourmet/img/image.png');
     text-align: center;
     padding-bottom: 150px;
 }
@@ -437,11 +437,14 @@ body {
 }
 
 .search-bar
-    padding: 10px; input {
+{
+    padding: 10px; 
+    input {
     width: 100%;
     font-size: 16px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    }
 }
 
 .closed-overlay {
