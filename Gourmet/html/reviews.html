@@ -3,32 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Recensioner</title>
     <link rel ="stylesheet" href ="/Gourmet/css/styless.css">
-    <script src="/Gourmet/js/"></script>
 </head>
-<body>
+<body id="review-page">
     <div id="headerwrapper">
         <div id="header1">
             <a href="index.html" class="link"></a>
-            <a class="link"></a>
         </div>
+        
         <div id="header2">
-            <a href="aboutus.html" class="link">Om oss</a> 
+            <a href="aboutus.html" class="link">Om oss</a>
             <a href="reviews.html" class="link">Recensioner</a>
             <a href="#contact-popup" class="link">Kontakt</a>
         </div>
         <div id="header3">
-            <a href="buy.HTML" class="link">Beställ nu!</a>
+            <a href="buy.html" class="link">Beställ nu!</a>
         </div>
     </div>
 
-    <div id="sectionwrapper">
-        <div id="section1"></div>
-        <div id="section2">
-            <a href="buy.HTML" id="text" >Beställ nu!</a>
+    <div id="reviewswrapper">
+        <h1>Recensioner</h1>
+        <div class="review">
+            <h2>Fantastisk mat!</h2>
+            <p>Jag älskade burgarna här! Smaken var otrolig och portionerna generösa. Rekommenderar starkt!</p>
+            <p><strong>- Anna S.</strong></p>
         </div>
-        <div id="section3"></div>
+        <div class="review">
+            <h2>Utmärkt service</h2>
+            <p>Personalen var supervänlig och hjälpsam. Det gjorde verkligen min kväll!</p>
+            <p><strong>- Erik J.</strong></p>
+        </div>
+        <div class="review">
+            <h2>Bästa pizzan i stan</h2>
+            <p>Jag har provat många pizzerior, men den här är verkligen bäst. Fräscht och smakrikt!</p>
+            <p><strong>- Maria K.</strong></p>
+        </div>
     </div>
 
     <div id="contact-popup" class="popup">
@@ -45,19 +55,5 @@
         </form>
         <a href="#" class="closeknapp">Stäng</a>
     </div>
-    
-
-    <script>
-        function dropDown1()
-        {
-            if(document.getElementById("header2-2").style.display=='flex'){document.getElementById("header2-2").style.display = 'flex'}else{document.getElementById("header2-2").style.display='flex'};
-        }
-
-        function dropDown2()
-        {
-            if(document.getElementById("header3").style.display=='flex'){document.getElementById("header3").style.display = 'flex'}else{document.getElementById("header3").style.display='flex'};
-        }
-    </script>
-
 </body>
 </html>
